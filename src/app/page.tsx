@@ -1,28 +1,31 @@
-import { Navbar } from "./ui/navbar";
+
 import Link from "next/link";
 
 export default function Home() {
 return (
 <div className="font-sans text-gray-900">
-<Navbar />
+
 
 
 {/* Hero Section */}
 <section
-className="h-[60vh] flex flex-col justify-center items-center text-center bg-cover bg-center"
+className="relative w-full h-[60vh] flex flex-col justify-center items-center text-center bg-cover bg-center"
 style={{ backgroundImage: "url('images/water-hero.jpg')" }}
 >
-<h1 className="text-5xl font-bold text-white drop-shadow-lg">
-Clean Water Changes Everything
+    <div className="absolute inset-0 bg-black/40"/>
+
+<h1 className="text-5xl md:text-4xl font-bold text-white drop-shadow-lg">
+Where Water Flows, Opportunity Grows
 </h1>
 <p className="mt-4 text-lg text-white max-w-xl drop-shadow">
-Every donation helps provide safe, clean water to communities in need.
+Every donation helps provide solar powered-water infrastructure, to communities in need.
 </p>
 <Link 
 href= '/Donate'
-className="mt-6 bg-blue-400 text-white px-6 py-3 rounded-xl shadow-lg text-lg hover:bg-blue-500 transition">
+className="relative z-10 mt-6 bg-blue-400 text-white px-6 py-3 rounded-xl shadow-lg text-lg hover:bg-blue-500 transition">
 Donate Now
 </Link>
+
 </section>
 
 
