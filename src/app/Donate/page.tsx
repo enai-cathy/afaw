@@ -172,9 +172,9 @@ export default function DonationPage() {
           </h1> */}
           
           
-          <p className="text-lg md:text-md max-w-2xl mx-auto">Africa Access Water is dedicated to transforming lives by providing safe and sustainable water solutions to underserved communities. With every project, we break the cycle of water scarcity, unlocking better health, education, and opportunity for generations to come.</p>
+          <p className="text-lg md:text-md text-gray-900 max-w-2xl mx-auto">Africa Access Water is dedicated to transforming lives by providing safe and sustainable water solutions to underserved communities. With every project, we break the cycle of water scarcity, unlocking better health, education, and opportunity for generations to come.</p>
         <br/>
-        <p className="text-lg md:text-md max-w-2xl mx-auto">
+        <p className="text-lg md:text-md max-w-2xl text-gray-900 mx-auto">
             
             Your donation helps bring clean, safe water to communities in need across Africa.  
             Together, we can transform lives.
