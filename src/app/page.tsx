@@ -12,7 +12,7 @@ return (
 className="relative w-full h-[60vh] flex flex-col justify-center items-center text-center bg-cover bg-center"
 style={{ backgroundImage: "url('images/water-hero.jpg')" }}
 >
-    <div className="absolute inset-0 bg-black/40"/>
+    <div className="absolute inset-0 bg-black/30"/>
 
 <h1 className="text-5xl md:text-4xl font-bold text-white drop-shadow-lg">
 Where Water Flows, Opportunity Grows
