@@ -12,7 +12,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 return (
 <nav className="flex justify-between items-center px-6 py-4 bg-white shadow-md relative">
 {/* Logo */}
-<div className="text-2xl font-bold text-blue-500">Africa Access Water</div>
+<div className="text-xl md:text-lg font-bold text-blue-500">Africa Access Water</div>
 
 
 {/* Desktop Nav */}

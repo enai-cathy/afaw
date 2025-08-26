@@ -20,8 +20,8 @@ export default function TrustTransparency() {
             <Image
               src="/images/usaid.png"
               alt="USAID Logo"
-              width={160}
-              height={80}
+              width={100}
+              height={50}
               className="object-contain grayscale hover:grayscale-0 transition"
             />
           </div>
@@ -29,12 +29,12 @@ export default function TrustTransparency() {
             <Image
               src="/images/unicef.png"
               alt="UNICEF Logo"
-              width={160}
-              height={80}
+              width={80}
+              height={40}
               className="object-contain grayscale hover:grayscale-0 transition"
             />
           </div>
-          <div className="flex items-center justify-center">
+          {/* <div className="flex items-center justify-center">
             <Image
               src="/images/charity-navigator.png"
               alt="Charity Navigator Logo"
@@ -42,7 +42,7 @@ export default function TrustTransparency() {
               height={80}
               className="object-contain grayscale hover:grayscale-0 transition"
             />
-          </div>
+          </div> */}
         </div>
 
        
